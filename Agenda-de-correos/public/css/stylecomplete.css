@@ -1,0 +1,50 @@
+.left {
+    background-color: #ffffff;
+    flex-grow: 2;
+    border-right:2px solid black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+.right {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 100vh;
+    font-size: 2rem;
+}
+
+.agenda {
+ 
+    height: 250px;
+    width: 250px;
+  
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 8rem;
+    
+    
+}
+
+.lastname, .name, .gender, .email {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    
+}
+
+
+

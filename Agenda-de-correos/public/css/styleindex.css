@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+}
+
+header {
+    width: 100%;
+    background-color: blue;
+    height: 70px;
+}
+
+.width {
+    width: 80%;
+    height: 70px;
+    background: red;
+    margin: auto;
+}
+
+.logophoto {
+    height: 60px;
+    width: 60px;
+}
+
+
+
+.logo{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}

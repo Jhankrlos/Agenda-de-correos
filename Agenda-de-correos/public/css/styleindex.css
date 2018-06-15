@@ -1,29 +1,38 @@
 * {
-    margin: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 header {
-    width: 100%;
-    background-color: blue;
-    height: 70px;
+  width: 100%;
+  background-color: blue;
+  height: 70px;
 }
 
 .width {
-    width: 80%;
-    height: 70px;
-    background: red;
-    margin: auto;
+  width: 80%;
+  height: 70px;
+  background: red;
+  margin: auto;
 }
 
 .logophoto {
-    height: 60px;
-    width: 60px;
+  height: 60px;
+  width: 60px;
 }
 
 
 
 .logo{
-    display: flex;
-    align-content: center;
-    justify-content: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
+
+.mover{
+  position: relative;
+  left: 615px;
+  position: relative;
+  bottom: 40px;
+}
+

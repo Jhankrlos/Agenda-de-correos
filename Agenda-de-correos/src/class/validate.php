@@ -1,29 +1,30 @@
 <?php
+
 require 'dataSource.php';
 require 'config.php';
+
 use connectdatabase\dataSource;
 
 /* @var $_POST type */
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-$sql = "SELECT username, password FROM user WHERE username='$username' AND password='$password'";
-$result = mysqli_query(getConection(), $sql);
+$connection = new dataSource($host, $user, $pass, $database, $port);
+$sql = "SELECT username, password FROM user WHERE username = '$username' AND password = '$password'";
+$connection->query($sql);
+$result = $connection->getData();
+$file = (is_array($result) === true) ? count($result) : 0;
 
-$file = mysqli_num_rows($result);
-if ($file>0) {
-    header("location:bienvenido.html");
+if ($file > 0) {
+  header("location:bienvenido.html");
 } else {
-    echo 'error en la autentificacion';
+  echo 'Error en la autentificacion';
 }
 
-mysqli_free_result($result);
-mysqli_close($getConection);
 
 
 
 
 
 
-    
 

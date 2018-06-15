@@ -3,13 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/xampp/htdocs/Agenda-de-correos/src/class/bienvenido.html</file>
-            <file>file:/D:/xampp/htdocs/Agenda-de-correos/src/class/dataSource.php</file>
-            <file>file:/D:/xampp/htdocs/Agenda-de-correos/public/css/stylecomplete.css</file>
-            <file>file:/D:/xampp/htdocs/Agenda-de-correos/public/complete2.php</file>
-            <file>file:/D:/xampp/htdocs/Agenda-de-correos/public/login.php</file>
-            <file>file:/D:/xampp/htdocs/Agenda-de-correos/src/class/validate.php</file>
-            <file>file:/D:/xampp/htdocs/Agenda-de-correos/public/complete.php</file>
+            <file>file:/C:/xampp/htdocs/Agenda-de-correos/public/css/styleindex.css</file>
+            <file>file:/C:/xampp/htdocs/Agenda-de-correos/src/class/validate.php</file>
+            <file>file:/C:/xampp/htdocs/Agenda-de-correos/src/class/dataSource.php</file>
+            <file>file:/C:/xampp/htdocs/Agenda-de-correos/public/login.php</file>
+            <file>file:/C:/xampp/htdocs/Agenda-de-correos/public/index.php</file>
+            <file>file:/C:/xampp/htdocs/Agenda-de-correos/src/class/config.php</file>
         </group>
     </open-files>
 </project-private>
